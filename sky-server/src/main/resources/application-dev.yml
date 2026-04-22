@@ -9,3 +9,7 @@ sky:
   local-upload:
     base-path: "${user.dir}/uploads"
     access-path: "/uploads/"
+  redis:
+    host: localhost
+    port: 6379
+    database: 1
